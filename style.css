@@ -112,7 +112,7 @@ i{
 
 #portfolio-p{
   font:inherit;
-  font-size:20px;
+  font-size:16px;
   color:#a2a2A2;
   /* border-bottom:2px solid #a2a2a2; */
   line-height:2em;
@@ -174,7 +174,7 @@ a:hover{
 }
 
 .p-head-2{
-  margin-top:25vh;
+  margin-top:20vh;
 }
 
 #work-history-p{
@@ -213,7 +213,78 @@ a:hover{
   margin:0px 20px;
 }
 
+.work-history-content{
+  padding-bottom:20vh;
+  
+}
 
+.contact-input{
+  background: #f7f7f7;
+  border-radius: 0.35em;
+  border: solid 2px transparent;
+  color: inherit;
+  display: block;
+  padding: 0 1vw;
+  text-decoration: none;
+  width: 100%;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 16pt;
+   font-weight: 400;
+   line-height: 1.75em;
+}
+
+textarea{
+  flex-direction: column;
+  resize: none;
+  cursor: text;
+  overflow-wrap: break-word;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size:16pt;
+  appearance: none;
+  background: #f7f7f7;
+  border-radius: 0.35em;
+  border: solid 2px transparent;
+  color: inherit;
+  display: block;
+  padding: 0 1vw;
+  width: 100%;
+  /* margin-top:3vh; */
+}
+
+/* .contact-p{
+  padding: 2vh 1vw;
+  font-size:16pt;
+  font:inherit;
+  color:#787878;
+  font-weight:500;
+} */
+
+.flex-icons{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  padding: 2vh 1vw;
+  font-size:16pt;
+  font:inherit;
+  color:#787878;
+  font-weight:500;
+}
+
+
+.contact-header{
+  font:inherit;
+  font-size:45px;
+  color:#787878;
+  font-weight:400;
+}
+
+.contact-header-p{
+  font:inherit;
+  font-size:16px;
+  color:#a2a2A2;
+  line-height:2em;
+  width:80%; 
+}
 
 
 

@@ -11,6 +11,7 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <!-- <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="style.css">
 
 
@@ -27,7 +28,7 @@
       <a href="portfolio.html">
         <p class="nav-p">Projects</p>
       </a>
-      <a href="#">
+      <a href="resume.html">
         <p class="nav-p">Work History</p>
       </a>
     </div>
@@ -74,7 +75,15 @@
         <div class="col-md-12">
           <header>
             <h1 class="about-me-header">About Me</h1>
-            <p id="about-me-p">Before I began studying computer science, I Graduated from Washington State University with a degree in Pre-Health Bioloy in the spring 2017. After working as an ICU CNA and a volunteer EMT for the next year and a half, I was accepted into Seattle Univerisites Doctorate of Nurse Practicitoner Program. During this time I suffered a back injury at the Hopsital and took an extended leave of absence. Since I no longer had applications, I spent my free time learning Javascript and HTML. I quickly realized my true calling and declined my offer to Seattle U. I began self teaching through Udemy, myfreecodecamp, and hackerRank. Once I learned of the University of Washington Web Development Bootcamp, I applied and was accepted to the summer cohort beginning may 20th. I am currently enrolled with an A Average and am looking for a full stack development job.  </p>
+            <p id="about-me-p">Before I began studying computer science, I Graduated from Washington State University
+              with a degree in Pre-Health Bioloy in the spring 2017. After working as an ICU CNA and a volunteer EMT for
+              the next year and a half, I was accepted into Seattle Univerisites Doctorate of Nurse Practicitoner
+              Program. During this time I suffered a back injury at the Hopsital and took an extended leave of absence.
+              Since I no longer had applications, I spent my free time learning Javascript and HTML. I quickly realized
+              my true calling and declined my offer to Seattle U. I began self teaching through Udemy, myfreecodecamp,
+              and hackerRank. Once I learned of the University of Washington Web Development Bootcamp, I applied and was
+              accepted to the summer cohort beginning may 20th. I am currently enrolled with an A Average and am looking
+              for a full stack development job. </p>
           </header>
         </div>
       </div>
@@ -85,11 +94,13 @@
           <p id="portfolio-p">I have been fortunate enough to work on both Solo projects and collaborative Assignemnts
             with my fellow classmates</p>
         </div>
-        <div class="collab">
-          <h1 class="collab-header">Collaborative Assignments</h1>
-          <a href="https://andrewjoung.github.io/carpoolify/"><img id="carpool-image" src="images/Screenshot (14).png"
-              alt="Rideshare"></a>
+        <div class="col-md-12">
+          <div class="collab">
+            <h1 class="collab-header">Collaborative Assignments</h1>
+            <a href="https://andrewjoung.github.io/carpoolify/"><img id="carpool-image" src="images/Screenshot (14).png"
+                alt="Rideshare"></a>
 
+          </div>
         </div>
 
         <div class="solo">
@@ -109,7 +120,7 @@
 
       <div class="row">
         <div class="col-md-12">
-          <header>
+          <header class="work-history-content">
             <h1 class="portfolio-header p-head-2">Work History</h1>
             <p id="work-history-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quidem ex atque est
               assumenda cum vero, fuga quia, minus reiciendis repudiandae corporis. Mollitia esse, porro ipsa vitae iure
@@ -117,6 +128,51 @@
               aliquid? Perferendis esse voluptas aspernatur nostrum ex, neque quaerat tempora illo doloremque inventore
               cupiditate pariatur aperiam voluptatem officiis expedita. </p>
           </header>
+        </div>
+      </div>
+
+
+      <div class="row contact-me">
+        <div class="col-md-12">
+          <h1 class="contact-header">Contact Me</h1>
+          <p class= "contact-header-p">Feel free to contact me about any career or collaborative opportunitites</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <input class="contact-input" type="text" placeholder="Name">
+        </div>
+        <div class="col-md-4">
+          <input class="contact-input" type="text" placeholder="Email">
+        </div>
+        <div class="col-md-4 flex-icons">
+          <i class="fa fa-home fa-2x"></i>
+          <p class="contact-p">14730 Main St, Mill Creek Wa, 98012</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8">
+          <textarea name="message" id="message-me" cols="30" rows="10" placeholder="Message for Me"></textarea>
+        </div>
+
+        <div class="col-md-4">
+          <div class="flex-icons">
+            <i class="fa fa-mobile fa-2x"></i>
+            <p class="contact-p"> 509-630-0927</p>
+          </div>
+          <br />
+          <div class="flex-icons">
+            <i class="fa fa-envelope-o fa-2x"></i>
+            <p class="contact-p">Scott.Willis.wsu@gmail.com</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <button class="btn btn-outline-secondary">Send Message</button>
         </div>
       </div>
 
