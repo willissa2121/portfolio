@@ -286,5 +286,26 @@ textarea{
   width:80%; 
 }
 
+/* @media only screen and (max-width:1000px){
+
+  #header-title{
+    display:none;
+  }
+  .container-main{
+    display:flex;
+    flex-direction:column;
+  }
+  #img-still{
+    height:70vh;
+    width:100vw;
+    position:relative;
+     filter:sepia(20%); 
+    opacity:1.0; 
+    z-index:0;
+  }
+
+
+} */
+
 
 
