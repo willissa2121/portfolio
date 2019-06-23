@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styleP.css">
+
+  <title>portfolio</title>
+</head>
+
+<body>
+  <header id="header-title">
+    <h5>Scott Willis</h5>
+    <div class="navbar">
+      <a href="index.html"><p class="nav-p">Main Page</p></a>
+      <a href="portfolio.html"><p class="nav-p">Projects</p></a>
+     <a href="#"><p class="nav-p">Work History</p></a>
+    </div>
+    <div class="icons">
+      <a href="https://www.linkedin.com/in/scott-willis-1b600a178/"><i class="fa fa-linkedin"
+          aria-hidden="true"></i></a>
+      <a href="https://github.com/willissa2121"><i class="fa fa-github" aria-hidden="true"></i></a>
+      <i class="fa fa-envelope" aria-hidden="true"></i>
+      <a href="https://www.linkedin.com/in/scott-willis-1b600a178/"></a><i class="fa fa-facebook"
+        aria-hidden="true"></i></a>
+    </div>
+  </header>
+
+  <button></button>
+
+
+  <!--Container Start-->
+  <div class="container pt-5">
+
+
+
+    <div class="row">
+      <div class="col-md-12">
+        <h1 id="portfolio-page-header">Collaborative Projects</h1>
+      </div>
+    </div>
+
+    <!--NBA Quiz row-->
+    <div class="row image-row">
+      <div class="col-md-3">
+        <div id="trivia" class="quiz-image">
+          <img style="height:250px; width:300px" src="images/Screenshot (14).png" alt="trivia">
+
+        </div>
+      </div>
+      <div class="col-md-6">
+        <p class="image-description">My first collaborative project, we created a database that would store user login data while concurrently using the fuel eceonomy API to calculate price per mile. After successful login, the user could either start a carpool ride or search for a nearby carpool ride. The users screen would populate with all nearby carpool rides. The map would render with pins for user who signed up for available rides once the carpool ride has been initated via google maps API call once the appropriate Date Time was called</p>
+      </div>
+
+      <div class="col-md-1">
+        <button id = "deployCarpool" class="btn btn-outline-secondary">Deployed Version</button>
+      </div>
+
+      <div class="col-md-1">
+        <button id = "githubCarpool" class="btn btn-outline-secondary">Github Repository</button>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="row">
+      <div class="col-md-12">
+        <h1 id="portfolio-page-header">Individual  Projects</h1>
+      </div>
+    </div>
+
+    <!--NBA Quiz row-->
+
+    <div class="row image-row">
+      <div class="col-md-5">
+        <div id="trivia" class="quiz-image">
+          <img style="height:300px; width:350px" src="images/Screenshot (15).png" alt="trivia">
+
+        </div>
+      </div>
+      <div class="col-md-3">
+        <p class="image-description">The goal of this project was to maximize my knowlege of dynamic DOM manipulation by
+          syncing up the manipulation with an interval timeout</p>
+      </div>
+
+      <div class="col-md-2">
+        <button id="deployQuiz" class="btn btn-outline-secondary">Deployed Version</button>
+      </div>
+
+      <div class="col-md-2">
+        <button id="githubQuiz" class="btn btn-outline-secondary">Github Repository</button>
+      </div>
+    </div>
+
+    <!--starwars row-->
+
+    <div class="row image-row">
+      <div class="col-md-5">
+        <div id="starwars" class="starwars-image">
+          <img style="height:300px; width:350px" src="images/Screenshot (17).png" alt="starwars">
+
+        </div>
+      </div>
+      <div class="col-md-3">
+        <p class="image-description">The Goal of this Project was to utilize JQuery to alter and append elements across
+          the DOM without hardcoding the exact pathway for each existing child element</p>
+      </div>
+
+      <div class="col-md-2">
+        <button id= "deployStarwars" class="btn btn-outline-secondary">Deployed Version</button>
+      </div>
+
+      <div class="col-md-2">
+        <button id="githubStarwars" class="btn btn-outline-secondary">Github Repository</button>
+      </div>
+    </div>
+
+    <!--hangman row-->
+    <div class="row image-row">
+      <div class="col-md-5">
+        <div id="hangman" class="hangman-image">
+          <img style="height:300px; width:350px" src="images/Screenshot (18).png" alt="hangman">
+
+        </div>
+      </div>
+      <div class="col-md-3">
+        <p class="image-description">The goal of this project is to utilize efficient looping and checks of an
+          unpredictable variable, such as keyUp, with a randomly generated string</p>
+      </div>
+
+      <div class="col-md-2">
+        <button id= "deployHangman" class="btn btn-outline-secondary">Deployed Version</button>
+      </div>
+
+      <div class="col-md-2">
+        <button id= "githubHangman" class="btn btn-outline-secondary">Github Repository</button>
+      </div>
+    </div>
+
+    <div class="row image-row">
+      <div class="col-md-5">
+        <div id="Gif" class="gif-image">
+          <img style="height:300px; width:350px" src="images/Screenshot (19).png" alt="gif">
+
+        </div>
+      </div>
+      <div class="col-md-3">
+        <p class="image-description">This project utilizes the Giffy API for devs. The user can choose the number of gifs and rating of gifs to display on screen, and then either use a pre-made search or a unique search (which will populate a new button). The gifs are appended as static images and swapped with gifs onclick</p>
+      </div>
+
+      <div class="col-md-2">
+        <button id="deployGif" class="btn btn-outline-secondary">Deployed Version</button>
+      </div>
+
+      <div class="col-md-2">
+        <button id="githubGif" class="btn btn-outline-secondary">Github Repository</button>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
