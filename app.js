@@ -42,3 +42,7 @@ $("#deployGif").on("click", function () {
 $("#githubGif").on("click", function () {
   window.open("https://github.com/willissa2121/homework6")
 })
+
+$("#nav-btn").on("click", function(){
+  window.location.href="index.html"
+})
