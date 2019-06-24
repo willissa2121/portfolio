@@ -286,26 +286,35 @@ textarea{
   width:80%; 
 }
 
-/* @media only screen and (max-width:1000px){
+@media only screen and (max-width:1000px){
 
-  #header-title{
+   #header-title{
     display:none;
   }
-  .container-main{
-    display:flex;
-    flex-direction:column;
+  #left-contianer{
+    margin:0;
+    padding:0;
   }
-  #img-still{
+   #img-still{
     height:70vh;
     width:100vw;
     position:relative;
      filter:sepia(20%); 
     opacity:1.0; 
     z-index:0;
+  } 
+
+  .container-main{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
   }
 
+  
 
-} */
+
+} 
 
 
 
