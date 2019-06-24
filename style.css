@@ -11,6 +11,14 @@
 body{
  overflow-x: hidden;
 }
+/* #headshot{
+  height:150px;
+  width:150px;
+  position:fixed;
+  left:30vw;
+  top: 10vh;
+  border-radius:50%;
+} */
 .icons{
   color:white;
 }
@@ -324,6 +332,11 @@ textarea{
   input{
     margin-top:3vh;
   }
+
+  /* #headshot{
+    top:2vh;
+    left:5vw;
+  } */
 
   
 
