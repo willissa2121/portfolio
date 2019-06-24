@@ -292,16 +292,21 @@ textarea{
     display:none;
   }
   #left-contianer{
-    margin:0;
-    padding:0;
+    display:flex;
+    padding-left:0px;
+    margin-left:0px;
   }
    #img-still{
     height:70vh;
     width:100vw;
+    margin-left:0px;
+    padding-left:0px;
+    left:-25vw;
     position:relative;
      filter:sepia(20%); 
     opacity:1.0; 
     z-index:0;
+   justify-self:flex-start;
   } 
 
   .container-main{
