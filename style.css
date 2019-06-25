@@ -304,18 +304,20 @@ textarea{
    #header-title{
     display:none;
   }
-  #left-contianer{
+  #left-container{
     display:flex;
+    width:100vw;
     padding-left:0px;
     margin-left:0px;
   }
    #img-still{
     height:70vh;
-    width:100vw;
+    width:100%;
     margin-left:0px;
     padding-left:0px;
-    left:-25vw;
-    position:relative;
+    position:absolute;
+    top:0px;
+    left:0px;
      filter:sepia(20%); 
     opacity:1.0; 
     z-index:0;
@@ -325,7 +327,7 @@ textarea{
   .container-main{
     display:flex;
     flex-direction:column;
-    justify-content:center;
+    justify-content:flex-start;
     align-items:center;
   }
 
