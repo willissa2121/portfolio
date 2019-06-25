@@ -48,6 +48,17 @@ img{
     align-items:flex-start;
   }
 
+  p{
+    width:70vw;
+  }
+
+  
+  .btn-group-align{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+  }
+
   /* #nav-btn{
     position:fixed;
     right:1vw;
