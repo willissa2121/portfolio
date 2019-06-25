@@ -304,6 +304,10 @@ textarea{
    #header-title{
     display:none;
   }
+
+  #container-right{
+    padding-left:15vw;
+  }
   #left-container{
     display:flex;
     width:100vw;
@@ -312,7 +316,7 @@ textarea{
   }
    #img-still{
     height:70vh;
-    width:100%;
+    width:100vw;
     margin-left:0px;
     padding-left:0px;
     position:absolute;
@@ -328,11 +332,15 @@ textarea{
     display:flex;
     flex-direction:column;
     justify-content:flex-start;
-    align-items:center;
+    align-items:flex-start;
+    /* padding-left:10vw; */
   }
 
   input{
     margin-top:3vh;
+  }
+  .row{
+    width:80vw;
   }
 
   /* #headshot{
