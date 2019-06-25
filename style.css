@@ -194,10 +194,18 @@ a:hover{
   font:inherit;
   font-size:20px;
   color:#a2a2A2;
-  border-bottom:2px solid #a2a2a2;
+  
   line-height:2em;
-  padding-bottom:10vh;
+  padding-bottom:2vh;
   width:80%; 
+}
+#work-history-btn{
+  
+  margin-bottom:8vh;
+
+}
+.work-me{
+  border-bottom:2px solid #a2a2a2;
 }
 
 .about-me-header{
@@ -304,6 +312,12 @@ textarea{
    /* #header-title{
     display:none;
   } */
+
+  .nav-p{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+  }
 
   #container-right{
     padding-left:15vw;
