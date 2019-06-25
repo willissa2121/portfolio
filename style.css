@@ -301,9 +301,9 @@ textarea{
 
 @media only screen and (max-width:1000px){
 
-   #header-title{
+   /* #header-title{
     display:none;
-  }
+  } */
 
   #container-right{
     padding-left:15vw;
